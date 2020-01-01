@@ -1,0 +1,140 @@
+/*Propriété pour ne pas modifier la largeur de la page*/
+body {
+  overflow-x: hidden;
+}
+/*Dégradé de couleur pour la barre de navigation*/
+.degradeNav {
+  background: linear-gradient(BlueViolet, deepPink);
+}
+/*Paramétres pour le nom et le prenom de l'entête*/
+.parameterName {
+  color: deepPink;
+  font-size: 40px;
+  margin-top: 3%;
+}
+/*Paramétres pour la profession de l'entête*/
+.parameterDev {
+  color: deepSkyBlue;
+  font-size: 40px;
+  margin-left: 20%;
+}
+/*Paramétre pour changer la couleur de fond de la page*/
+.body {
+  background-color: silver;
+}
+/*Paramétres de l'entête*/
+.header {
+  border: 4mm ridge rgba(170, 50, 220, .6);
+  background-color: black;
+  border-color: Fuchsia;
+  margin-top: 20px;
+}
+/*Paramétre de la barre de navigation*/
+.navbar {
+  border-radius: 30px;
+  font-size: 15px;
+  text-decoration-style: double;
+}
+/*Paramétres de la photo professionnel*/
+.my_img {
+  height: 200px;
+  width: 150px;
+  border-radius: 30px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 10%
+}
+/*Paramétres pour la carte présentation*/
+.cardPresentation {
+  background-color: HotPink;
+  border: 4mm ridge rgba(170, 50, 220, .6);
+  border-color: deepSkyBlue;
+  border-radius: 10px;
+}
+/*Paramétres pour tout les titre de niveau 2*/
+h2 {
+  color: DarkCyan;
+  font-weight: bold;
+  text-align: center;
+}
+/*Paramétres pour tout les titre de niveau 3*/
+h3 {
+  color: purple;
+  font-weight: bold;
+  text-align: center;
+}
+/*Paramétres pour les paragraphes du contenu*/
+.pContenu {
+  color: dimGray;
+  font-size: 20px;
+  font-weight: bold;
+}
+/*Paramétres pour la carte objectif*/
+.cardGoal {
+  background-color: HotPink;
+  border: 4mm ridge rgba(170, 50, 220, .6);
+  border-color: red;
+  border-radius: 10px;
+}
+/*Paramétres pour la carte language*/
+.cardLanguage {
+  background-color: HotPink;
+  border-style: dashed double;
+  border-width: thick;
+  border-color: yellow;
+  border-radius: 10px;
+}
+/*Paramétres pour la carte atouts*/
+.cardAssets {
+  background-color: HotPink;
+  border: 10px groove;
+  border-color: DarkViolet;
+  border-radius: 10px;
+}
+/*Paramétres pour la carte informations complémentaire*/
+.cardInformation {
+  background-color: HotPink;
+  border: 10px dotted;
+  border-color: Lime;
+  border-radius: 10px;
+}
+/*Paramétres pour la carte formation*/
+.cardFormation {
+  border: 5px dashed red;
+  background-color: HotPink;
+  border-radius: 10px;
+}
+/*Paramétres pour la carte expériences*/
+.cardExperiences {
+  border: 10px dotted LightSeaGreen;
+  background-color: HotPink;
+  border-radius: 10px;
+}
+/*Paramétres pour la carte compétences*/
+.cardSkills {
+  border: 10px groove orange;
+  background-color: HotPink;
+  border-radius: 10px;
+}
+/*Paramétres pour la carte informatique*/
+.cardComputer {
+  border-style: dashed double;
+  border-color: MediumVioletRed;
+  border-width: thick;
+  border-radius: 10px;
+  background-color: HotPink;
+}
+/*Paramétres pour la couleur et la taille du formulaire de contact*/
+.formColor {
+  color: DeepSkyBLue;
+  font-weight: bold;
+  font-size: 20px;
+}
+/*Paramétre pour la couleur des input du formulaire de contact*/
+.inputFormContact {
+  color: deepPink;
+}
+/*Dégradé de couleurs pour le formulaire de contact*/
+.formContact {
+  background-image: linear-gradient(BlueViolet, deepPink);
+}
